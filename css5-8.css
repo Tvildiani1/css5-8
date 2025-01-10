@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 224px;
+    height: 1715px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+header {
+    border-right: 1px solid #434343;
+    background: #222224;
+}
+
+.headerBox {
+    display: flex;
+    width: 224px;
+    height: 498pxpx;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 16px 1201px 16px;
+    gap: 32px;
+    
+}
+
+.mainDiv {
+    background: #141414;
+    display: flex;
+}
+
+.headerTwo {
+    display: flex;
+    width: 192px;
+    padding-bottom: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    height: 242px;
+}
+
+.companyP {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.generalBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 192px;
+    height: 40px;
+}
+
+
+.generalDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+.generalDiv {
+    border-radius: 12px;
+    background: #FAE101;
+}
+.generalP {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.membersDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+
+}
+
+.membersP {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lineBox {
+    border-bottom: 1px solid #434343;
+    width: 192px;
+}
+
+.headerThree {
+    display: flex;
+    padding-bottom: 24px;
+    width: 192px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    
+}
+
+.profileBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    
+    width: 192px;
+}
+    
+.profileCenter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mainHeader {
+    display: inline-flex;
+    padding: 16px 16px 16px 336px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 208px;
+    width: 1456px;
+    height: 72px;
+    border-bottom: 1px solid #434343;
+    background: #141414;
+}
+
+.mainHeaderone {
+    display: flex;
+    align-items: center;
+    
+}
+.searchDiv {
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    width: 484px;
+    height: 40px;
+}
+
+.searchP {
+    color: #fae101;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    padding: 8px 10px;
+}
+
+.mainheaderTwo {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: end;
+    gap: 10px;
+    width: 48px;
+    height: 40px;
+}
+.mainheaderTwo {
+    border-radius: 0px 8px 8px 0px;
+    background: #FAE101;
+}
+
+.mainheaderthree {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 142px;
+    height: 40px;
+}
+
+.devonlane {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.devonlanelogo {
+    border-radius: 60px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.mainOne {
+    display: inline-flex;
+    padding: 19px 170px 19px 40px;
+    align-items: center;
+    gap:  259px;
+    width: 1088px;
+    margin: 0 auto;
+    height: 307px;
+}
+.mainOne {
+    border-radius: 16px;
+    background: #222224;
+}
+
+.oneLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.giftingdays {
+    color: #fae101;
+    font-size: 48px;
+    font-weight: 600;
+}
+.buyOne {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    width: 247px;
+}
+
+.oneleftEnd {
+    color: #B7B7B7;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    width: 314px;
+    height: 57px;
+}
+
+.oneleftSpan {
+    color: #B7B7B7;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    
+
+}
+
+.mainTwo {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-left: 184px;
+}
+
+.grinchlogoTwo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+}
+.grinchlogoTwo {
+    border-radius: 24px;
+    background: #FAE101;
+    width: 102px;
+    height: 48px;
+}
+
+.allP {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.harrypoterDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+}
+.harrypoterDiv {
+    border-radius: 24px;
+    background: #222224;
+    width: 123px;
+    height: 48px;
+}
+
+.grinchP {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.harrypoterTwo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+    width: 166px;
+    height: 48px;
+}
+
+.harrypoterTwo {
+    border-radius: 24px;
+    background: #222224;
+}
+
+.spangebobDiv{ 
+    border-radius: 24px;
+    background: #222224;
+}
+.spangebobDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 16px 8px 12px;
+    width: 161px;
+    height: 48px;
+}
+
+.mainThree {
+    display: flex;
+    width: 1088px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.threeTop {
+    display: flex;
+    width: 341px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.flashP {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.saleBox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.saleP {
+    color: #fae101;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.endingBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.endingP {
+    color: #797979;
+    font-size: 16px;
+    font-weight: 600;
+}
+.endingFive {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.zero {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #FAE101;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+.rectangleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+
+}
+
+.rectangleOne {
+    border-radius: 50px;
+    background: #D9D9D9;
+    width: 4px;
+    height: 4px;
+}
+
+.threeGrinchbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: 260px;
+    width: 1088px;
+}
+
+.grinchboxOne {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    width: 352px;
+    height: 260px;
+}
+.grinchboxOne {
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background: #222224;
+}
+
+.crazygrinchLogo {
+    border-radius: 9.865px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
+.christmasContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 36px;
+}
+
+.christmasBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+.christmasStar {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.stoleChristmas {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.christmasSprite {
+    font-size: 16px;
+    color: #797979;
+    font-weight: 400;
+}
+
+.christmasDolar {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ten {
+    color: #FAE101;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sixteen {
+    color: #797979;
+    font-size: 14px;
+    font-weight: 400;
+}
+.christmasButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 154px;
+    height: 40px;
+    padding: 10px;
+
+}
+.christmasButton {
+    border-radius: 4px;
+    background: #FAE101;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.mainFour {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 1088px;
+    height: 383px;
+    margin: 0 auto;
+}
+
+.allthemes {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.starAnimationBox {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.oneAnimation {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    height: 353px;
+    width: 254px;
+}
+.oneAnimation {
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+.stolegrinch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
